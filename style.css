@@ -9,7 +9,10 @@ body{
     padding: 13px 30px 0;
     align-items: center;
     margin-bottom: 19px;
-    min-width: 920px;
+}
+#header div:last-of-type{
+    display: flex;
+    margin-left: 20px;
 }
 .nava{
     text-decoration: none;
@@ -32,16 +35,27 @@ body{
     font-family: 'Poppins', sans-serif;
     color: rgba(51, 51, 51, 1);
     margin-bottom: 19px;
+    margin-right: 20px;
 }
 #shape{
     width: 24px;
     height: 23.83px;
+}
+#shape:hover{
+    opacity: 50%;
+    width: 25px;
+    height: 24.83px;
 }
 #burger{
     width: 24px;
     height: 20px;
     margin-left: 32.19px;
     padding-bottom: 3px;
+}
+#burger:hover{
+    opacity: 50%;
+    width: 25px;
+    height: 21px;
 }
 nav{
     display: flex;
@@ -65,7 +79,7 @@ nav{
     padding: 0px;
 }
 h1{
-    font-size: 72px;
+    font-size: calc(1.475rem + 2.7vw);
     line-height: 72px;
     font-family: 'Poppins', sans-serif;
     margin: 0px;
@@ -107,6 +121,20 @@ h1{
 
 
 
-@media(min-width:920px){
-
+@media(max-width:680px){
+    #header{
+        position: relative;
+        padding: 13px 15px;
+    }
+    #header div:first-of-type{
+        position: absolute;
+        left: calc(50% - 50px);
+    }
+    #header div:last-of-type{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+    }
+    
 }

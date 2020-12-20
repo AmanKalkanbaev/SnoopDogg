@@ -1,0 +1,33 @@
+#share-check{
+    display: none;
+}
+#burger-check{
+    display: none;
+}
+.share-check{
+    display: none;
+    position: absolute;
+    border: 1px solid rgba(200, 109, 215, 1);
+    border-radius: 25px;
+    right: 120px;
+    padding: 10px;
+    top: 20px;
+}
+.nav-check a{
+    transition: 0.5s;
+}
+#burger-check:checked~.nav-check a{
+    font-size: 0;
+}
+#share-check:checked~.share-check{
+    display: block;
+}
+label{
+    cursor: pointer;
+}
+
+@media(max-width:680px){
+    .nav-check {
+        display: none;
+    }
+}
