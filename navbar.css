@@ -58,5 +58,18 @@ label{
     #burger-check:checked~.nav-check a{
         font-size: 18px;
     }
-    
+    .share-check{
+        position: absolute;
+        border: 1px solid rgba(200, 109, 215, 1);
+        border-radius: 25px;
+        left: -70px;
+        padding: 8px;
+        top: 20px;
+        transition: 0.5s;
+    }
+    #share-check:checked~.share-check{
+        left: 70px;
+        width: 120px;
+        top: 13px;
+    }
 }

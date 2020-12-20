@@ -6,7 +6,7 @@ body{
 #header{
     display: flex;
     justify-content: space-between;
-    padding: 13px 30px 0;
+    padding: 19px 30px 0;
     align-items: center;
     margin-bottom: 19px;
 }
@@ -66,10 +66,12 @@ nav{
 }
 #main{
     background-image: url(./picture/main/Object.png);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 -50px;
+    height: 290px;
     color: white;
-    padding: 173px 12% 225px;
+    padding: 173px 12%;
 }
 .main{
     font-size: 20px;
