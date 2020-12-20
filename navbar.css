@@ -28,6 +28,35 @@ label{
 
 @media(max-width:680px){
     .nav-check {
-        display: none;
+        position: absolute;
+        top: 73px;
+        right: -350px;
+        width: 350px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        text-align: center;
+        background-color: rgb(133, 38, 148);
+        opacity: 60%;
+        color: white;
+        transition: 0.5s;
     }
+    .nav-check a{
+        color: white;
+        opacity: 100%;
+        padding: 20px;
+        font-size: 18px;
+    }
+    .nav-check a:hover{
+        padding: 20px;
+        border-radius: 50px;
+    }
+    #burger-check:checked~.nav-check{
+        right: 0;
+    }
+    #burger-check:checked~.nav-check a{
+        font-size: 18px;
+    }
+    
 }
