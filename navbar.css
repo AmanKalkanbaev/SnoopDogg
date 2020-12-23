@@ -91,7 +91,7 @@ label{
     .nav-check a:active{
         padding: 10px 30px;
         border-radius: 50px;
-        background-color: rgba(255, 195, 0, 1);
+        background-color: rgba(255, 195, 0, 1)  ;
     }
     #burger-check:checked~.nav-check{
         right: 0;
