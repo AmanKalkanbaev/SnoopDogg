@@ -4,12 +4,7 @@
 #burger-check{
     display: none;
 }
-input::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.726);
-}
-input::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.726);
-}
+
 .share-check{
     display: block;
     position: fixed;
@@ -96,6 +91,7 @@ label{
     .nav-check a:active{
         padding: 10px 30px;
         border-radius: 50px;
+        background-color: rgba(255, 195, 0, 1);
     }
     #burger-check:checked~.nav-check{
         right: 0;
@@ -103,6 +99,12 @@ label{
     }
     #burger-check:checked~.nav-check a{
         font-size: 18px;
+    }
+    input::-moz-placeholder {
+        color: rgba(255, 255, 255, 0.726);
+    }
+    input::-webkit-input-placeholder {
+        color: rgba(255, 255, 255, 0.726);
     }
     .share-check{
         position: fixed;

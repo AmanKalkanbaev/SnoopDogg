@@ -66,7 +66,7 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 -50px;
-    /* height: 400px; */
+    height: 400px;
     color: white;
     padding: 173px 12%;
 }
@@ -91,32 +91,33 @@ h1{
     margin-bottom: 46px;
 
 }
-#main .main_btn:first-of-type{
+#main div:last-of-type{
+    display: flex;
+}
+/* #main .main_btn:first-of-type{
     padding: 12px 44.5px;
-    background-color: rgba(255, 195, 0, 1);
+    background-color: rgba(255, 196, 0, 0);
     border: 1px rgba(255, 195, 0, 1) solid;
     margin-right: 30px;
     transition: 0.3s;
-}
-#main .main_btn:first-of-type:hover{
-    border: 1px white solid;
-    background-color: rgba(255, 196, 0, 0);
-}
-#main .main_btn:last-of-type:hover{
-    background-color: rgba(255, 195, 0, 1);
-    border: 1px rgba(255, 195, 0, 1) solid;
-}
-.main_btn{
+} */
+#main div:last-of-type li a.main_btn{
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
     color: white;
+    margin-right: 30px;
     border: 1px white solid;
     border-radius: 25px;
     padding: 12px 47.5px;
     transition: 0.3s;
 }
+#main div:last-of-type li a.main_btn:hover{
+    background-color: rgba(255, 195, 0, 1);
+    border: 1px rgba(255, 195, 0, 1) solid;
+}
+
 
 
 
@@ -125,15 +126,21 @@ h1{
     #main{
         text-align: center;
         background-color: rgba(48, 35, 174, 1);
-    }
-    .main_btn{
-        width: 250px;
-        margin-bottom: 20px;
-    }
-    #main div:last-of-type{
-        max-width: 60%;
-        margin: 0px;
-        height: 200px;
+        background-position: 0 0px;
     }
     
+    #main div:last-of-type{
+        margin: 0px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #main div:last-of-type li{
+        margin-bottom: 50px;
+    }
+    #main div:last-of-type li a.main_btn{
+        margin: 0px;
+    }
 }
