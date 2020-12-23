@@ -38,7 +38,6 @@ li{
 
 #header div:last-of-type{
     display: flex;
-    /* margin-left: 20px; */
 }
 #shape{
     width: 24px;
@@ -66,9 +65,9 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 -50px;
-    height: 400px;
+    height: 497px;
     color: white;
-    padding: 173px 11%;
+    padding: 173px 11% 0px;
 }
 .main{
     font-size: 20px;
@@ -94,13 +93,6 @@ h1{
 #main div:last-of-type{
     display: flex;
 }
-/* #main .main_btn:first-of-type{
-    padding: 12px 44.5px;
-    background-color: rgba(255, 196, 0, 0);
-    border: 1px rgba(255, 195, 0, 1) solid;
-    margin-right: 30px;
-    transition: 0.3s;
-} */
 #main div:last-of-type li a.main_btn{
     font-weight: 700;
     font-size: 16px;
@@ -119,12 +111,51 @@ h1{
 }
 
 
+.three_cards{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.first_cards{
+    padding: 61px 0 0;
+}
+.three_card{
+    flex-basis: calc(100% / 3 - 15px);
+    max-width: 370px;
+    margin-right: 30px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.first_cards div:first-of-type{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px;
+    line-height: 64px;
+    margin: 0px;
+}
+.three_card p{
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0px;
+}
+h5{
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 50%; 
+    margin: 0px;
+}
+
 
 
 @media(max-width:700px){
     
     #main{
         text-align: center;
+        height: 688px;
         background-color: rgba(48, 35, 174, 1);
         background-position: 0 0px;
     }
