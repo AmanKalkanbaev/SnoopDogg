@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Source+Sans+Pro:wght@600;700&display=swap');
+
 body{
     margin: 0px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -10,16 +11,14 @@ body{
     align-items: center;
     margin-bottom: 19px;
 }
-#header div:last-of-type{
-    display: flex;
-    margin-left: 20px;
-}
 .nava{
     text-decoration: none;
     color: rgba(51, 51, 51, 1);
     font-size: 16px;
     line-height: 24px;
-    transition: 0.3s;
+}
+li{
+    list-style-type: none;
 }
 .nava:hover{
     font-size: 17px;
@@ -35,7 +34,11 @@ body{
     font-family: 'Poppins', sans-serif;
     color: rgba(51, 51, 51, 1);
     margin-bottom: 19px;
-    margin-right: 20px;
+}
+
+#header div:last-of-type{
+    display: flex;
+    /* margin-left: 20px; */
 }
 #shape{
     width: 24px;
@@ -57,19 +60,13 @@ body{
     width: 25px;
     height: 21px;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    width: 574px;
-    height: 24px;
-    padding-top: 15px;
-}
+
 #main{
     background-image: url(./picture/main/Object.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 -50px;
-    height: 290px;
+    /* height: 400px; */
     color: white;
     padding: 173px 12%;
 }
@@ -123,20 +120,20 @@ h1{
 
 
 
-@media(max-width:680px){
-    #header{
-        position: relative;
-        padding: 13px 15px;
+@media(max-width:700px){
+    
+    #main{
+        text-align: center;
+        background-color: rgba(48, 35, 174, 1);
     }
-    #header div:first-of-type{
-        position: absolute;
-        left: calc(50% - 50px);
+    .main_btn{
+        width: 250px;
+        margin-bottom: 20px;
     }
-    #header div:last-of-type{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
+    #main div:last-of-type{
+        max-width: 60%;
         margin: 0px;
+        height: 200px;
     }
     
 }
