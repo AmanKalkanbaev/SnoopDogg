@@ -150,6 +150,7 @@ h1{
     color: #C86DD7;
     font-size: 35px;
     transition: 0.3s;
+    margin: 15px;
 }
 .plus:hover{
     color: #ffffff;
