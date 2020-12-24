@@ -88,7 +88,6 @@ h1{
     font-weight: 600;
     max-width: 750px;
     margin-bottom: 46px;
-
 }
 #main div:last-of-type{
     display: flex;
@@ -146,8 +145,8 @@ h1{
     box-sizing: border-box;
     border-radius: 24px;
     position: absolute;
-    right: 10% ;
-    bottom: 15%;
+    right: 8% ;
+    bottom: 4%;
     color: #C86DD7;
     font-size: 35px;
     transition: 0.3s;
@@ -169,17 +168,20 @@ h1{
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 18px;
+    color:rgba(51, 51, 51, 1);
 }
 h2{
     font-family: 'Poppins', sans-serif;
-    font-size: 56px;
+    font-size: calc(1.475rem + 2.7vw);
     line-height: 64px;
     margin: 0 0 57px;
+    color:rgba(51, 51, 51, 1);
 }
 .cards p{
     font-size: 12px;
     line-height: 24px;
     margin: 0px;
+    color:rgba(51, 51, 51, 1);
 }
 #hfive{
     max-width: 70%;
@@ -189,6 +191,7 @@ h5{
     line-height: 32px;
     max-width: 50%; 
     margin: 0 0 43px;
+    color:rgba(51, 51, 51, 1);
 }
 
 
