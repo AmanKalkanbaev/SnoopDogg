@@ -219,4 +219,14 @@ h5{
     #main div:last-of-type li a.main_btn{
         margin: 0px;
     }
+    .first_cards{
+        text-align: center;
+        
+    }
+    .cards_bottom{
+        flex-direction: column;
+    }
+    .cards{
+        text-align: start;
+    }
 }
