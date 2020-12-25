@@ -196,15 +196,45 @@ h5{
 #laptop{
     padding: 159px 6.5% 160px;
     background-image: url(./picture/laptop/BG.png);
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 368px;
 }
 #laptop>div img {
     float: left;
+    width: 700px;
+}
+.laptop_description{
+    padding-top: 6%;
+    display: block;
 }
 .laptop_description h2{
-    font-size: calc(15px + 2.7vw);
+    font-size: calc(16px + 2.7vw);
     line-height: 64px;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.laptop_description P{
+    color: rgba(51, 51, 51, 1);
+    font-size: 16px;
+    line-height: 24px;
+    margin: 23px 0 32px;
+}
+.blue_btn{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    background-color: #C86DD7;
+    border: 1px #C86DD7 solid;
+    border-radius: 25px;
+    padding: 11px 57px;
+    transition: 0.5s;
+}
+.blue_btn:hover{
+    border: 1px #C86DD7 solid;
+    background-color: rgba(255, 255, 255, 0);
+    color: #C86DD7;
 }
 
 @media(max-width:700px){
@@ -240,4 +270,5 @@ h5{
     .cards{
         text-align: start;
     }
+
 }
