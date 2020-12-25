@@ -201,7 +201,11 @@ h5{
 #laptop>div img {
     float: left;
 }
-
+.laptop_description h2{
+    font-size: calc(15px + 2.7vw);
+    line-height: 64px;
+    font-family: 'Poppins', sans-serif;
+}
 
 @media(max-width:700px){
     
