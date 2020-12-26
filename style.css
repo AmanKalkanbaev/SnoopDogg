@@ -270,5 +270,8 @@ h5{
     .cards{
         text-align: start;
     }
-
+    #laptop>div img{
+        position: relative;
+        left: -300px
+    }
 }
