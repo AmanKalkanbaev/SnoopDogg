@@ -274,4 +274,7 @@ h5{
         position: relative;
         left: -300px
     }
+    #laptop>div{
+        text-align: center;
+    }
 }
