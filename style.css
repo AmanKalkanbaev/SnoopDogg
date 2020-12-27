@@ -256,9 +256,33 @@ h5{
     height: 592px;
     background-color: rgb(89, 151, 65);
 }
+.blocks_bottom .plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 24px;
+    position: absolute;
+    left: 35%;
+    bottom: 5%;
+    color: #ffffff;
+    font-size: 35px;
+    transition: 0.3s;
+    margin: 15px;
+    z-index: 100;
+    text-decoration: none;
+}
+.blocks_bottom .plus:hover{
+    color: #C86DD7;
+    background-color: rgb(255, 255, 255);
+}
 .blocks_text{
     position: absolute;
-    max-width: 35%;
+    max-width: 30%;
     left: 32px;
     bottom: 32px;
     z-index: 5;
