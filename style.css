@@ -253,7 +253,7 @@ h5{
 }
 .blocks_bottom{
     position: relative;
-    height: 592px;
+    height: 550px;
     background-color: rgb(89, 151, 65);
 }
 .blocks_bottom .plus{
@@ -285,7 +285,7 @@ h5{
     max-width: 30%;
     left: 32px;
     bottom: 32px;
-    z-index: 5;
+    z-index: 10;
 }
 .blocks_text h5{
     margin: 0;
@@ -301,35 +301,43 @@ h5{
     font-family: 'Nanum Gothic', sans-serif;
 }
 #glass{
+    width: 550px;
     position: absolute;
+    z-index: 5;
 }
 #frame{
+    width: 254px;
     position: absolute;
     top: 0;
     left:592px
 }
 #icecream{
+    width: 254px;
     position: absolute;
     bottom: 0;
     left:592px
-    
 }
 #head{
+    width: 326px;
     position: absolute;
     top: 0;
     right: 184px;
 }
 #bilding{
+    width: 142px;
     position: absolute;
     right: 0;
     top: 0;
 }
 #hren{
+    width: 142px;
     position: absolute;
     right: 0;
     bottom: 224px;
 }
 #dron{
+    width: 510px;
+    height: 182px;
     position: absolute;
     right: 0;
     bottom: 0;
