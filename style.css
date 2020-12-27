@@ -252,6 +252,8 @@ h5{
     line-height: 64px;
 }
 .blocks_bottom{
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
     height: 550px;
     background-color: rgb(89, 151, 65);
@@ -306,38 +308,39 @@ h5{
     z-index: 5;
 }
 #frame{
-    width: 254px;
+    width: 275px;
     position: absolute;
     top: 0;
-    left:592px
+    left:550px
 }
 #icecream{
-    width: 254px;
+    width: 275px;
     position: absolute;
     bottom: 0;
-    left:592px
+    left:550px
 }
 #head{
-    width: 326px;
+    width: 340px;
     position: absolute;
     top: 0;
     right: 184px;
 }
 #bilding{
-    width: 142px;
+    width: 184px;
     position: absolute;
     right: 0;
     top: 0;
+    z-index: 5;
 }
 #hren{
-    width: 142px;
+    width: 184px;
     position: absolute;
     right: 0;
-    bottom: 224px;
+    bottom: 210px;
 }
 #dron{
-    width: 510px;
-    height: 182px;
+    width: 524px;
+    height: 210px;
     position: absolute;
     right: 0;
     bottom: 0;
