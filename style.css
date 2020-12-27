@@ -368,7 +368,7 @@ h5{
 #plus{
     height: 300px;
     background-color: rgba(48, 35, 174, 1);
-    padding: 96px 11% 0;
+    padding: 96px 11% 30px;
 }
 .plus_block{
     display: flex;
@@ -433,4 +433,16 @@ h5{
     #laptop>div{
         text-align: center;
     }
+    #laptop{
+        position: relative;
+        text-align: center;
+    }
+    .laptop_description{
+        position: absolute;
+        top: 150px;
+    }
+
+
+
+    
 }
