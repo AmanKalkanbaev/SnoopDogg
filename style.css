@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Source+Sans+Pro:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 body{
     margin: 0px;
@@ -240,6 +241,75 @@ h5{
     clear: both;
 }
 
+.blocks_description{
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 135px;
+}
+.blocks_description h2{
+    margin: 0;
+    font-size: 56px;
+    line-height: 64px;
+}
+.blocks_bottom{
+    position: relative;
+    height: 592px;
+    background-color: rgb(89, 151, 65);
+}
+.blocks_text{
+    position: absolute;
+    max-width: 35%;
+    left: 32px;
+    bottom: 32px;
+    z-index: 5;
+}
+.blocks_text h5{
+    margin: 0;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.blocks_text p{
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#glass{
+    position: absolute;
+}
+#frame{
+    position: absolute;
+    top: 0;
+    left:592px
+}
+#icecream{
+    position: absolute;
+    bottom: 0;
+    left:592px
+    
+}
+#head{
+    position: absolute;
+    top: 0;
+    right: 184px;
+}
+#bilding{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#hren{
+    position: absolute;
+    right: 0;
+    bottom: 224px;
+}
+#dron{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
 
 
 @media(max-width:700px){
