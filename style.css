@@ -454,6 +454,15 @@ h5{
 
 
 
-
+    #plus{
+        height: 670px;
+    }
+    .plus_block{
+        flex-direction: column;
+    }
+    .plus_cards{
+        text-align: center;
+        margin-bottom: 70px;
+    }
     
 }
