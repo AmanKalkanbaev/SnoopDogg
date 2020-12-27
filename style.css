@@ -393,6 +393,12 @@ h5{
     line-height: 32px;
 }
 
+
+.messege_block img{
+    width: 500px;
+    height: 474px;
+}
+
 @media(max-width:700px){
     
     #main{
