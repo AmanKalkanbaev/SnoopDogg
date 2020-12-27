@@ -236,6 +236,9 @@ h5{
     background-color: rgba(255, 255, 255, 0);
     color: #C86DD7;
 }
+.clear-float{
+    clear: both;
+}
 
 @media(max-width:700px){
     
