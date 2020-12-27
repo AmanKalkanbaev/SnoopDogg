@@ -61,6 +61,8 @@ li{
     height: 21px;
 }
 
+
+
 #main{
     background-image: url(./picture/main/Object.png);
     background-repeat: no-repeat;
@@ -109,6 +111,7 @@ h1{
     background-color: rgba(255, 195, 0, 1);
     border: 1px rgba(255, 195, 0, 1) solid;
 }
+
 
 
 .cards_bottom{
@@ -194,6 +197,9 @@ h5{
     margin: 0 0 43px;
     color:rgba(51, 51, 51, 1);
 }
+
+
+
 #laptop{
     padding: 159px 6.5% 160px;
     background-image: url(./picture/laptop/BG.png);
@@ -240,6 +246,8 @@ h5{
 .clear-float{
     clear: both;
 }
+
+
 
 .blocks_description{
     display: flex;
@@ -355,6 +363,35 @@ h5{
     bottom: 0;
 }
 
+
+
+#plus{
+    height: 300px;
+    background-color: rgba(48, 35, 174, 1);
+    padding: 96px 11% 0;
+}
+.plus_block{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.plus_cards{
+    margin-right: 2%;
+}
+.plus_cards img{
+    margin-bottom: 25px;
+}
+.plus_cards p{
+    margin: 10px 0 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+.plus_cards h6{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+}
 
 @media(max-width:700px){
     
