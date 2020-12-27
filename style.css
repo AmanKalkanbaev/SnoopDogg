@@ -444,5 +444,16 @@ h5{
 
 
 
+    .blocks_description{
+        flex-direction: column;
+        text-align: center;
+    }
+    .blocks_description h2{
+        margin-bottom: 30px;
+    }
+
+
+
+
     
 }
