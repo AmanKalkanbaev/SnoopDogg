@@ -878,8 +878,7 @@ h5{
         background-color: rgba(48, 35, 174, 1);
         background-position: 0 0px;
     }
-    
-    #main div:last-of-type{
+    #main ul{
         margin: 0px;
         height: 200px;
         display: flex;
@@ -887,12 +886,16 @@ h5{
         margin-right: auto;
         margin-left: auto;
     }
-    #main div:last-of-type li{
+    #main ul>li{
         margin-bottom: 50px;
     }
-    #main div:last-of-type li a.main_btn{
+    #main ul>li a.main_btn{
         margin: 0px;
     }
+    
+
+
+
     .first_cards{
         text-align: center;
         
@@ -942,4 +945,31 @@ h5{
         margin-bottom: 70px;
     }
     
+
+
+    .messege_block div:last-of-type{
+        padding: 0;
+        text-align: center;
+    }
+    .messege_block img{
+        top: 400px;
+    }
+    .messege_block img:first-of-type{
+        top: 380px;
+    }
+    #messege{
+        height: 900px;
+    }
+
+
+
+    .card_bottom{
+        flex-direction: column;
+    }
+    .sec_card{
+        text-align: center;
+    }
+    .sec_card h4{
+        margin-bottom: 200px;
+    }
 }
