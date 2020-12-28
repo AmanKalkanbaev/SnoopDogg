@@ -620,7 +620,7 @@ h5{
     padding: 120px 11% 512px;
     background-image: url(./picture/HR/BG.png);
     background-repeat: no-repeat;
-    
+    background-color: rgba(48, 35, 174, 1);
 }
 .hr_cards{
     display: flex;
