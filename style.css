@@ -636,6 +636,19 @@ h5{
     width: 220px;
     height: 238px;
 }
+.hr_card h4{
+    color:rgba(51, 51, 51, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size:22px;
+    line-height: 30px;
+    margin: 21px 0 11px 20px;
+}
+.hr_card p{
+    color:rgba(51, 51, 51, 1);
+    font-size:12px;
+    line-height: 24px;
+    margin: 0 0 25px 20px;
+}
 .hr_block h2{
     font-family: 'Poppins', sans-serif;
     color: white;
