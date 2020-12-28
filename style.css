@@ -28,13 +28,12 @@ li{
     background-color: rgba(200, 109, 215, 1);
     padding: 0 20px;
 }
-#header div:first-of-type a{
-    text-decoration: none;
+#header div:first-of-type h2{
     font-size: 40px;
     line-height: 48px;
     font-family: 'Poppins', sans-serif;
     color: rgba(51, 51, 51, 1);
-    margin-bottom: 19px;
+    margin-bottom: 2px;
 }
 
 #header div:last-of-type{
