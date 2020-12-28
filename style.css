@@ -626,6 +626,22 @@ h5{
     display: flex;
     justify-content: space-between;
 }
+.hr_card{
+    flex-basis: calc (100% / 4);
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.hr_card img{
+    width: 220px;
+    height: 238px;
+}
+.hr_block h2{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 56px;
+    line-height: 64px;
+}
 @media(max-width:700px){
     
     #main{
