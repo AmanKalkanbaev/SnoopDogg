@@ -547,6 +547,11 @@ h5{
     background-color: #fdf2ff;
     padding: 128px 11%;
 }
+.gradient h2{
+    position: absolute;
+    z-index: -10
+    ;
+}
 #gradient p{
     margin: 0px;
     display: none;
@@ -578,11 +583,8 @@ h5{
     display: inline-block;
     line-height: 0.70;
 }
-.gradient_bottom h4{
-    margin: 0;
-}
 .gradient_bottom .lab_one{
-    max-width: 190px;
+    max-width: 195px;
 }
 .gradient_bottom .lab_two{
     max-width: 210px;
