@@ -570,19 +570,17 @@ h5{
     line-height: 32px;
     font-family: 'Poppins', sans-serif;
 }
-.gradient_bottom .lab_one::after{
-    content: "  ᐯ";
+.gradient_bottom label::after{
+    content: url(./picture/gradient/down.png);
+}
+.gradient_bottom .lab_one{
+    max-width: 195px;
 }
 .gradient_bottom label:hover{
     border-bottom: 7px solid #C86DD7;
     display: inline-block;
     line-height: 0.70;
   }
-.gradient_bottom label:focus{
-    border-bottom: 7px solid #C86DD7;
-    display: inline-block;
-    line-height: 0.70;
-}
 .gradient_bottom input{
     display: none;
 }
@@ -590,6 +588,7 @@ h5{
     display: inline;
 }
 #one:checked~.lab_one::after{
+    content: url(./picture/gradient/);
 }
 
 @media(max-width:700px){
