@@ -924,11 +924,14 @@ h5{
     }
 
     
+    #blocks .plus{
+        left:45%;
+    }
     .blocks_text{
         text-align: center;
         position: relative;
         max-width: none;
-        margin-top: 150px;
+        margin-top: 145px;
     }
     .blocks_text h5{
         max-width: none;
