@@ -569,7 +569,6 @@ h5{
     font-size: 24px;
     line-height: 32px;
     font-family: 'Poppins', sans-serif;
-    transition: 0.3s;
 }
 .gradient_bottom label::after{
     content: url(./picture/gradient/down.png);
