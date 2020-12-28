@@ -437,6 +437,7 @@ h5{
 
 #mobile{
     padding: 60px 11%;
+    position: relative;
     background-image: url(./picture/mobile/BG.png);
 }
 .mobile_block{
@@ -455,8 +456,16 @@ h5{
 .mobile_block>div .mobile_buttons{
     display: flex;
 }
-.mobile_block>div:last-of-type{
-    position: relative;
+.mobile_phone img:first-of-type{
+    position: absolute;
+    top: 10%;
+    right: -20%;
+    z-index: 5;
+}
+.mobile_phone img:last-of-type{
+    position: absolute;
+    top: 60%;
+    right: -15%;
 }
 .mobile_block .main_btn{
     font-weight: 700;
