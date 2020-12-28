@@ -561,9 +561,8 @@ h5{
 }
 .gradient_bottom{
     margin-left: 100px;
-    padding: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
 }
 .gradient_bottom label{
