@@ -980,12 +980,14 @@ h5{
 
     .gradient_block{
         flex-direction: column;
+        text-align: center;
     }
     .gradient{
         margin-bottom: 50px;
     }
     .gradient_bottom label{
         margin-bottom: 20px;
+        text-align: center;
     }
 
 
@@ -995,10 +997,25 @@ h5{
     .hr_cards{
         flex-direction: column;
     }
+    #hr{
+        padding: 120px 11% 200px;
+    }
 
 
     .third_block{
         text-align: center;
+    }
+    .third_buttom{
+        flex-direction: column;
+    }
+    .third_card_sec{
+        background-position: -40px -40px;
+    }
+    .third_card_sec ul{
+        text-align: start;
+    }
+    .third_card ul{
+        text-align: start;
     }
 
 
@@ -1010,5 +1027,9 @@ h5{
     }
     .sec_card h4{
         margin-bottom: 200px;
+    }
+
+    .footer_main{
+        flex-direction: column;
     }
 }
