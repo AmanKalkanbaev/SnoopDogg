@@ -506,6 +506,7 @@ h5{
 #second_cards{
     background-color: #fff;
     z-index: 20;
+    padding-bottom: 123px;
 }
 .card_bottom{
     display: flex;
@@ -518,15 +519,27 @@ h5{
 .sec_card{
     position: relative;
     flex-basis: calc(100% / 4);
-    height: 400px;
+    height: 350px;
     overflow: hidden;
     border-radius: 10px;
     margin: 15px;
     box-shadow: 16px 16px 48px 0 rgba(0, 0, 0, 0.0995);
+    padding: 26px 26px 0;
 }
 .sec_card h6{
     font-size: 12px;
     line-height: 24px;
+    margin: 0 0 13px;
+}
+.sec_card h4{
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.sec_card .plus{
+    left: 8% ;
+    bottom: 4%;
 }
 @media(max-width:700px){
     
