@@ -434,6 +434,11 @@ h5{
     height: 474px;
 }
 
+
+#mobile{
+    padding: 60px 11%;
+}
+
 @media(max-width:700px){
     
     #main{
