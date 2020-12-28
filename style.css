@@ -559,12 +559,39 @@ h5{
     width: 470px;
 }
 .gradient_bottom{
+    margin-left: 100px;
+    padding: 5%;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
+}
+.gradient_bottom label{
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+.gradient_bottom .lab_one::after{
+    content: "  ᐯ";
+}
+.gradient_bottom label:hover{
+    border-bottom: 7px solid #C86DD7;
+    display: inline-block;
+    line-height: 0.70;
+  }
+.gradient_bottom label:focus{
+    border-bottom: 7px solid #C86DD7;
+    display: inline-block;
+    line-height: 0.70;
 }
 .gradient_bottom input{
     display: none;
 }
+#one:checked~.check_one{
+    display: inline;
+}
+#one:checked~.lab_one::after{
+}
+
 @media(max-width:700px){
     
     #main{
