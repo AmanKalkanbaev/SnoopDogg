@@ -439,14 +439,24 @@ h5{
     padding: 60px 11%;
     background-image: url(./picture/mobile/BG.png);
 }
+.mobile_block{
+    position: relative;
+}
 .mobile_block>div h2{
     font-size: calc(1.475rem + 2.7vw);
     max-width: 50%;
     color: white;
 }
 .mobile_block>div p{
-    max-width: 70%;
+    max-width: 55%;
     color: white;
+    margin-bottom: 30px;
+}
+.mobile_block>div .mobile_buttons{
+    display: flex;
+}
+.mobile_block>div:last-of-type{
+    position: relative;
 }
 .mobile_block .main_btn{
     font-weight: 700;
