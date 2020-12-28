@@ -926,6 +926,13 @@ h5{
 
     .blocks_text{
         text-align: center;
+        position: relative;
+    }
+    .blocks_text h5{
+        max-width: none;
+    }
+    .blocks_text p{
+        max-width: none;
     }
     .blocks_description{
         flex-direction: column;
