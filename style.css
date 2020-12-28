@@ -962,6 +962,45 @@ h5{
     }
 
 
+    .mobile_phone img{
+        opacity: 70%;
+    }
+    .mobile_block div:first-of-type {
+        text-align: center;
+        margin: 0;
+    }
+
+
+
+    .card_header h2{
+        text-align: center;
+    }
+
+
+
+    .gradient_block{
+        flex-direction: column;
+    }
+    .gradient{
+        margin-bottom: 50px;
+    }
+    .gradient_bottom label{
+        margin-bottom: 20px;
+    }
+
+
+    .hr_block{
+        text-align: center;
+    }
+    .hr_cards{
+        flex-direction: column;
+    }
+
+
+    .third_block{
+        text-align: center;
+    }
+
 
     .card_bottom{
         flex-direction: column;
