@@ -666,6 +666,7 @@ h5{
     justify-content: space-between;
 }
 .third_card{
+    font-family: 'Poppins', sans-serif;
     position: relative;
     flex-basis: calc(100% / 3);
     overflow: hidden;
@@ -674,10 +675,38 @@ h5{
     box-shadow: 16px 16px 48px 0 rgba(0, 0, 0, 0.0995);
     padding: 32px 0 0 32px;
 }
-.third_card h4{
+.third_card h6{
+    font-family: 'Nanum Gothic', sans-serif;
     font-size: 16px;
     line-height: 24px;
+    margin: 0;
     color:rgba(51, 51, 51, 1);
+}
+.third_card h4{
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    color:rgba(51, 51, 51, 1);
+}
+.third_card>div{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    color:rgba(51, 51, 51, 1);
+}
+.third_card>div span{
+    font-size: 72px;
+    line-height: 72px;
+    margin: 0;
+    color:rgba(51, 51, 51, 1);
+}
+.third_card ul{
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    color:rgba(51, 51, 51, 0.527);
 }
 .third_card_sec{
     position: relative;
@@ -687,7 +716,7 @@ h5{
     margin: 15px;
     box-shadow: 16px 16px 48px 0 rgba(0, 0, 0, 0.0995);
     background-image: url(./picture/third_cards/BG2.png);
-    background-position: -90px -90px;
+    background-position: -80px -90px;
     padding: 32px 0 0 32px;
 }
 @media(max-width:700px){
