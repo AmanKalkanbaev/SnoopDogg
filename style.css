@@ -614,6 +614,12 @@ h5{
     display: inline;
 }
 
+
+
+#hr{
+    padding: 120px 11% 512px;
+    background-image: url(./picture/HR/BG.png);
+}
 @media(max-width:700px){
     
     #main{
