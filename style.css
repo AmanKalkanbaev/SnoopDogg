@@ -541,6 +541,26 @@ h5{
     left: 8% ;
     bottom: 4%;
 }
+
+
+
+#gradient{
+    background-color: #fdf2ff;
+    padding: 128px 11%;
+}
+#gradient p{
+    margin: 0px;
+    display: none;
+}
+.gradient_block{
+    display: flex;
+}
+.gradient img{
+    width: 470px;
+}
+.gradient_bottom input{
+    display: none;
+}
 @media(max-width:700px){
     
     #main{
