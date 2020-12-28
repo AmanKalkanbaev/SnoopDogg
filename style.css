@@ -438,6 +438,13 @@ h5{
 #mobile{
     padding: 60px 11%;
 }
+.mobile_block>div h2{
+    font-size: calc(1.475rem + 2.7vw);
+    max-width: 50%;
+}
+.mobile_block>div p{
+    max-width: 70%;
+}
 
 @media(max-width:700px){
     
