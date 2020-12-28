@@ -587,9 +587,6 @@ h5{
 #one:checked~.check_one{
     display: inline;
 }
-#one:checked~.lab_one::after{
-    content: url(./picture/gradient/);
-}
 
 @media(max-width:700px){
     
