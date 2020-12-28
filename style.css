@@ -464,7 +464,7 @@ h5{
 .mobile_phone img:first-of-type{
     position: absolute;
     top: 10%;
-    right: 15%;
+    right: 17%;
     z-index: 5;
 }
 .mobile_phone img:last-of-type{
@@ -490,6 +490,8 @@ h5{
 }
 .oval:first-of-type{
     position: absolute;
+    bottom: 0;
+    left: 40%;
 }
 .oval:last-of-type{
     width: 150px;
@@ -498,6 +500,34 @@ h5{
     bottom:0;
 }
 
+
+
+
+#second_cards{
+    background-color: #fff;
+    z-index: 20;
+}
+.card_bottom{
+    display: flex;
+    width: 78%;
+    margin: 0 auto;
+}
+.card_header{
+    padding: 120px 11% 0;
+}
+.sec_card{
+    position: relative;
+    flex-basis: calc(100% / 4);
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 16px 16px 48px 0 rgba(0, 0, 0, 0.0995);
+}
+.sec_card h6{
+    font-size: 12px;
+    line-height: 24px;
+}
 @media(max-width:700px){
     
     #main{
