@@ -446,26 +446,31 @@ h5{
 .mobile_block>div h2{
     font-size: calc(1.475rem + 2.7vw);
     max-width: 50%;
+    margin: 0 0 30px;
     color: white;
 }
 .mobile_block>div p{
     max-width: 55%;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+.mobile_block>div:first-of-type{
+    padding-top: 20%;
 }
 .mobile_block>div .mobile_buttons{
     display: flex;
+    margin-bottom: 145px;
 }
 .mobile_phone img:first-of-type{
     position: absolute;
     top: 10%;
-    right: -20%;
+    right: 15%;
     z-index: 5;
 }
 .mobile_phone img:last-of-type{
     position: absolute;
-    top: 60%;
-    right: -15%;
+    top: 30%;
+    right:-13%;
 }
 .mobile_block .main_btn{
     font-weight: 700;
@@ -482,6 +487,15 @@ h5{
 .mobile_block .main_btn:hover{
     background-color: rgba(255, 195, 0, 1);
     border: 1px rgba(255, 195, 0, 1) solid;
+}
+.oval:first-of-type{
+    position: absolute;
+}
+.oval:last-of-type{
+    width: 150px;
+    position: absolute;
+    right: 0;
+    bottom:0;
 }
 
 @media(max-width:700px){
