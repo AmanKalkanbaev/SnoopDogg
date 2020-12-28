@@ -661,6 +661,14 @@ h5{
 #third_cards{
     padding: 60px 11% 96px;
 }
+.third_block .third_head{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color:rgba(51, 51, 51, 1);
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
 .third_buttom{
     display: flex;
     justify-content: space-between;
@@ -677,21 +685,21 @@ h5{
 }
 .third_card h6{
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 24px;
-    margin: 0;
+    margin: 0 0 13px;
     color:rgba(51, 51, 51, 1);
 }
 .third_card h4{
     font-size: 24px;
     line-height: 32px;
-    margin: 0;
+    margin: 0 0 15px;
     color:rgba(51, 51, 51, 1);
 }
 .third_card>div{
     font-size: 16px;
     line-height: 24px;
-    margin: 0;
+    margin: 0 0 24px;
     color:rgba(51, 51, 51, 1);
 }
 .third_card>div span{
@@ -705,7 +713,7 @@ h5{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 16px;
     line-height: 24px;
-    margin: 0;
+    margin: 0 0 80px;
     color:rgba(51, 51, 51, 0.527);
 }
 .third_card_sec{
@@ -714,10 +722,83 @@ h5{
     overflow: hidden;
     border-radius: 10px;
     margin: 15px;
+    color: white;
     box-shadow: 16px 16px 48px 0 rgba(0, 0, 0, 0.0995);
     background-image: url(./picture/third_cards/BG2.png);
-    background-position: -80px -90px;
+    background-size: 100vh;
+    background-position: -80px -45px;
     padding: 32px 0 0 32px;
+    font-family: 'Poppins', sans-serif;
+}
+.third_card_sec h6{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0;
+    color: white;
+}
+.third_card_sec .third_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.third_card_sec h4{
+    font-size: 24px;
+    line-height: 32px;
+    margin: 13px 0 15px;
+}
+.third_card_sec h5{
+    font-size: 10px;
+    line-height: 10px;
+    padding-right: 12px;
+    margin: 0;
+    color: white;
+}
+.third_card_sec>div:first-of-type{
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+.third_card_sec>div span{
+    font-size: 72px;
+    line-height: 72px;
+    color: white;
+}
+.third_card_sec ul{
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 18px 0 80px;
+    color: rgba(255, 255, 255, 0.658);
+}
+.shop_icon{
+    background-image: url(./picture/third_cards/shop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    right: 32px;
+    bottom: 32px;
+    border: 1px solid #C86DD7;
+    border-radius: 50px;
+}
+.shop_icon:hover{
+    background-color: #C86DD7;
+    background-image: url(./picture/third_cards/shop_white.png);
+}
+.third_card_sec .shop_icon{
+    background-image: url(./picture/third_cards/shop_white.png);
+    border: 1px solid #ffffff;
+}
+.third_card_sec .shop_icon:hover{
+    background-image: url(./picture/third_cards/shop.png);
+    border: 1px solid #ffffff;
+    background-color: #fff;
 }
 @media(max-width:700px){
     
