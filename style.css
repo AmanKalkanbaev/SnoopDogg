@@ -800,6 +800,73 @@ h5{
     border: 1px solid #ffffff;
     background-color: #fff;
 }
+
+
+
+#footer{
+    background-color:  rgba(48, 35, 174, 1);
+    text-decoration: none;
+    color: white;
+}
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+    padding: 53px 11%;
+    border-bottom: rgba(255, 235, 205, 0.438) solid 1px;
+}
+.footer_main h4{
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 0 25px;
+}
+.foot_block p{
+ max-width: calc(100% - 30px);
+ font-size: 15px;
+ line-height: 22px;
+ margin: 0;
+ color: rgba(255, 255, 255, 0.562);
+}
+.foot_block ul{
+    padding: 0;
+}
+.foot_block a{
+    color: white;
+    text-decoration: none;
+    
+}
+.foot_block li{
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 22px;
+}
+.foot_block{
+    flex-basis: calc(100% / 4);
+}
+.foot_block div{
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.514);
+    margin-bottom: 24px;
+    font-weight: 100;
+}
+.foot_block div>img{
+    margin-right: 16px;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 20% 32px 11%;
+}
+.footer_bottom p{
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 50%;
+}
 @media(max-width:700px){
     
     #main{
