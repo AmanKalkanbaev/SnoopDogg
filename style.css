@@ -927,6 +927,7 @@ h5{
     .blocks_text{
         text-align: center;
         position: relative;
+        max-width: none;
     }
     .blocks_text h5{
         max-width: none;
