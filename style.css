@@ -558,6 +558,10 @@ h5{
 .gradient img{
     width: 470px;
 }
+.gradient_bottom{
+    display: flex;
+    flex-direction: column;
+}
 .gradient_bottom input{
     display: none;
 }
