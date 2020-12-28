@@ -551,6 +551,7 @@ h5{
 #gradient p{
     margin: 0px;
     display: none;
+    transition: 0.3s;
 }
 .gradient_block{
     display: flex;
@@ -569,22 +570,48 @@ h5{
     font-size: 24px;
     line-height: 32px;
     font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
 }
 .gradient_bottom label::after{
     content: url(./picture/gradient/down.png);
 }
-.gradient_bottom .lab_one{
-    max-width: 195px;
-}
+
 .gradient_bottom label:hover{
     border-bottom: 7px solid #C86DD7;
     display: inline-block;
     line-height: 0.70;
-  }
+}
+.gradient_bottom .lab_one{
+    max-width: 195px;
+}
+.gradient_bottom .lab_two{
+    max-width: 210px;
+}
+.gradient_bottom .lab_thre{
+    max-width: 300px;
+}
+.gradient_bottom .lab_four{
+    max-width: 165px;
+}
+.gradient_bottom .lab_five{
+    max-width: 180px;
+}
 .gradient_bottom input{
     display: none;
 }
 #one:checked~.check_one{
+    display: inline;
+}
+#two:checked~.check_two{
+    display: inline;
+}
+#thre:checked~.check_thre{
+    display: inline;
+}
+#four:checked~.check_four{
+    display: inline;
+}
+#five:checked~.check_five{
     display: inline;
 }
 
