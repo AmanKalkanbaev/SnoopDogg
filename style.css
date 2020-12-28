@@ -923,7 +923,9 @@ h5{
         margin: 20px;
     }
 
-
+    #blocks{
+        background-color: rgb(17, 16, 16);
+    }
     .blocks_text{
         text-align: center;
         position: relative;
