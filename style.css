@@ -91,10 +91,10 @@ h1{
     max-width: 750px;
     margin-bottom: 46px;
 }
-#main div:last-of-type{
+#main ul{
     display: flex;
 }
-#main div:last-of-type li a.main_btn{
+#main ul li a.main_btn{
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -106,7 +106,7 @@ h1{
     padding: 12px 47.5px;
     transition: 0.3s;
 }
-#main div:last-of-type li a.main_btn:hover{
+#main ul li a.main_btn:hover{
     background-color: rgba(255, 195, 0, 1);
     border: 1px rgba(255, 195, 0, 1) solid;
 }
