@@ -655,6 +655,41 @@ h5{
     font-size: 56px;
     line-height: 64px;
 }
+
+
+
+#third_cards{
+    padding: 60px 11% 96px;
+}
+.third_buttom{
+    display: flex;
+    justify-content: space-between;
+}
+.third_card{
+    position: relative;
+    flex-basis: calc(100% / 3);
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 16px 16px 48px 0 rgba(0, 0, 0, 0.0995);
+    padding: 32px 0 0 32px;
+}
+.third_card h4{
+    font-size: 16px;
+    line-height: 24px;
+    color:rgba(51, 51, 51, 1);
+}
+.third_card_sec{
+    position: relative;
+    flex-basis: calc(100% / 3);
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 16px 16px 48px 0 rgba(0, 0, 0, 0.0995);
+    background-image: url(./picture/third_cards/BG2.png);
+    background-position: -90px -90px;
+    padding: 32px 0 0 32px;
+}
 @media(max-width:700px){
     
     #main{
