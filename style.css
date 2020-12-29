@@ -559,9 +559,11 @@ h5{
 }
 .gradient_block{
     display: flex;
+    flex-wrap: wrap;
 }
 .gradient img{
     width: 470px;
+    margin-bottom: 50px;
 }
 .gradient_bottom{
     margin-left: 100px;
@@ -875,6 +877,9 @@ h5{
     .mobile_phone{
         display: none;
     }
+    .gradient_bottom label{
+        margin-bottom: 20px;
+    }
 }
 @media(max-width:700px){
     
@@ -933,11 +938,15 @@ h5{
     #blocks .plus{
         left:45%;
     }
+    #glass{
+        width: 81%;
+    }
     .blocks_text{
         text-align: center;
         position: relative;
         max-width: none;
         margin-top: 145px;
+        left: 0;
     }
     .blocks_text h5{
         max-width: none;
@@ -980,13 +989,15 @@ h5{
     }
     .messege_block img{
         top: 400px;
+        width: 70%;
     }
     .messege_block img:first-of-type{
         top: 380px;
     }
     #messege{
-        height: 900px;
+        height: 60%;
     }
+    
 
     .mobile_block div:first-of-type {
         text-align: center;
@@ -1020,14 +1031,18 @@ h5{
 
     .gradient_block{
         flex-direction: column;
-        text-align: center;
     }
     .gradient{
         margin-bottom: 50px;
     }
+    .gradient img{
+        width: 90%;
+    }
     .gradient_bottom label{
         margin-bottom: 20px;
-        text-align: center;
+    }
+    .gradient_bottom{
+        margin: 0;
     }
 
 
@@ -1072,4 +1087,14 @@ h5{
     .footer_main{
         flex-direction: column;
     }
+}
+@media(max-width:420px){
+    #laptop>div img{
+        position: relative;
+        left: -400px
+    }
+    .blocks_description{
+        padding: 10px;
+    }
+    
 }
