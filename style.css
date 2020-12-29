@@ -628,12 +628,13 @@ h5{
 .hr_cards{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .hr_card{
-    flex-basis: calc (100% / 4);
-    margin: 15px;
+    flex-basis: calc (100% / 4 - 15px);
     background-color: #fff;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 .hr_card img{
     width: 220px;
