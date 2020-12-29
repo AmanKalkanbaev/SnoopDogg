@@ -419,7 +419,7 @@ h5{
 }
 .messege_block div:last-of-type{
     z-index: 10;
-    padding-left: 650px;
+    padding-left: 60%;
     padding-top: 60px;
 }
 .messege_block img:first-of-type{
